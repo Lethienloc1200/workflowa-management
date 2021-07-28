@@ -13,6 +13,20 @@
   }
 }
 
+span.label.label-danger {
+  background: rgba(255, 0, 0, 0.384);
+  padding: 5px;
+  border-radius: 10px;
+  width: 80px;
+}
+span.label.label-susscess {
+  background: rgba(0, 128, 0, 0.411);
+  padding: 5px;
+  border-radius: 10px;
+  width: 80px;
+ 
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +49,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.sort_selected::after{
+  content: '\f00c';
+  margin: 0px 0px 0px 10px ;
+  display: inline-block;
 }
